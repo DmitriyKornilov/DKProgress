@@ -6,7 +6,7 @@ object Progress: TProgress
   BorderStyle = bsNone
   ClientHeight = 80
   ClientWidth = 720
-  Color = clWhite
+  Color = clWindow
   DesignTimePPI = 120
   FormStyle = fsStayOnTop
   OnShow = FormShow
@@ -178,7 +178,7 @@ object Progress: TProgress
       BorderSpacing.Left = 12
       BorderSpacing.Right = 6
       Caption = 'Идет прогресс:'
-      Font.Color = clBlack
+      Font.Color = clWindowText
       ParentColor = False
       ParentFont = False
     end
@@ -198,7 +198,7 @@ object Progress: TProgress
       BorderSpacing.Top = 6
       BorderSpacing.Right = 6
       Caption = 'Этап 1'
-      Font.Color = clBlack
+      Font.Color = clWindowText
       ParentColor = False
       ParentFont = False
     end
